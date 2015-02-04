@@ -5,3 +5,6 @@ aaaaaa
 
 feature001 branch
 --------------------------------------
+
+*hogehoge
+*nakano
