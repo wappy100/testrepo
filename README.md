@@ -7,4 +7,4 @@ feature001 branch
 --------------------------------------
 
 *hogehoge
-*nakano
+*test repo
