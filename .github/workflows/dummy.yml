@@ -1,0 +1,11 @@
+name: _always skipped
+on:
+  pull_request:
+
+jobs:
+  second:
+    name: second
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
