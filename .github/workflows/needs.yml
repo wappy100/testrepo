@@ -4,12 +4,10 @@ on:
 
 jobs:
   first:
-    name: first
     runs-on: ubuntu-latest
     steps:
       - run: exit 1
   second:
-    name: second
     needs: first
     runs-on: ubuntu-latest
     steps:

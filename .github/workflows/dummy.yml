@@ -4,13 +4,11 @@ on:
 
 jobs:
   first:
-    name: first
     if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - run: echo ok
   second:
-    name: second
     if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
