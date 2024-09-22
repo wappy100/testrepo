@@ -1,6 +1,8 @@
 name: skip test
 on:
   pull_request:
+    branchs:
+      - feature/skip-test1
 
 jobs:
   first:
