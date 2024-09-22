@@ -7,7 +7,7 @@ jobs:
     name: first
     runs-on: ubuntu-latest
     steps:
-      - run: echo ok
+      - run: exit 1
   second:
     name: second
     needs: first
