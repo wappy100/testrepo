@@ -1,6 +1,8 @@
 name: skip test
 on:
   pull_request:
+    paths:
+      - '.github/workflows/dummy.yml'
 
 jobs:
   first:
